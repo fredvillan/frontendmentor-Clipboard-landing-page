@@ -23,7 +23,6 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
 - [Acknowledgments](#acknowledgments)
 
 
-
 ## Overview
 
 ### The challenge
@@ -33,18 +32,18 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover and focus states for interactive elements
 
+Design to follow: https://github.com/fredvillan/frontendmentor-Clipboard-landing-page/tree/main/design
 
+### Here's the screenshot of my solution(hover function can only be viewed through live site):
 
-### Screenshot(Here's my screenshot, Add-to-Cart button hover is not included on the screenshots but part of my code/feature)
-
-![Desktop-iPad-Tablet](https://user-images.githubusercontent.com/106635525/177808638-566f7407-d859-44c1-8741-77898c92cc2e.JPG)
-![iPhone11 Pro](https://user-images.githubusercontent.com/106635525/177808648-d2efca96-a33a-4748-87d7-ed87f5ef2cb8.JPG)
+![design-desktop](https://user-images.githubusercontent.com/106635525/181290272-a40306ff-7769-49cb-8db8-96805aca9c0c.jpg)
+![design-mobile](https://user-images.githubusercontent.com/106635525/181290290-bd3a6983-d031-467a-be91-ca28f313a291.jpg)
+or check the myresults folder above: https://github.com/fredvillan/frontendmentor-Clipboard-landing-page/tree/main/myresults
 
 ### Links
 
-
-- Solution URL: https://github.com/fredvillan/product-preview-card/blob/main/index.html
-- Live Site URL: https://fredvillan.github.io/product-preview-card/
+- Solution URL: https://github.com/fredvillan/frontendmentor-Clipboard-landing-page
+- Live Site URL: https://fredvillan.github.io/frontendmentor-Clipboard-landing-page/
 
 ## My process
 
