@@ -38,6 +38,7 @@ Design to follow: https://github.com/fredvillan/frontendmentor-Clipboard-landing
 
 ![design-desktop](https://user-images.githubusercontent.com/106635525/181290272-a40306ff-7769-49cb-8db8-96805aca9c0c.jpg)
 ![design-mobile](https://user-images.githubusercontent.com/106635525/181290290-bd3a6983-d031-467a-be91-ca28f313a291.jpg)
+
 or check the myresults folder above: https://github.com/fredvillan/frontendmentor-Clipboard-landing-page/tree/main/myresults
 
 ### Links
