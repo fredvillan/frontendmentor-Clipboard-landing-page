@@ -1,0 +1,370 @@
+body {
+  background-image: url(images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  box-sizing: border-box;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 18px;
+  color: hsl(210, 10%, 33%);
+  margin: auto;
+  padding: 0;
+}
+
+p {
+  color: hsl(201, 11%, 66%);]
+  font-size: 18px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 100px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.header img {
+  width: 80px;
+  margin-bottom: 50px;
+}
+
+.header p {
+  width: 650px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+button {
+  padding: 10px 25px 10px 25px;
+  border: none;
+  border-radius: 30px;
+  margin-right: 10px;
+  color: white;
+  box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.67);
+  cursor: pointer;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-weight: 400;
+}
+
+.btn-iOS {
+  background-color: hsl(171, 66%, 44%);
+}
+
+.btn-Mac {
+  background-color: hsl(233, 100%, 69%); 
+}
+
+.btn-iOS:hover,
+.btn-Mac:hover {
+  opacity: 0.7;
+}
+
+.track-container {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.track-head {
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 40px;
+}
+
+.track-head p {
+  width: 700px;
+}
+
+.track-snippets {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.track-snippets img {
+  position: relative;
+  right: 30px;
+  margin-right: 100px;
+}
+
+.snippets {
+  text-align: left;
+}
+
+.snippets p {
+  padding-right: 200px;
+  margin-bottom: 60px;
+}
+
+.access-clipboard {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+  width: 700px;
+}
+
+.access-clipboard p {
+  margin-bottom: 100px;
+}
+
+.access-clipboard img {
+  height: 130%;
+  width: 130%;
+  object-fit: cover;
+  margin-bottom: 30px;
+}
+
+.workflow {
+  margin: auto 100px;
+}
+
+.workflow-first p {
+  margin-bottom: 50px;
+}
+
+.sub-workflow {
+  display: flex;
+  flex-direction: row;
+  width: 1200px;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.sub-workflow div {
+  margin-right: 20px;
+}
+
+.sub-workflow img {
+  height: 20px;
+  
+}
+
+.sub-workflow p {
+  font-size: 16px;
+  width: 350px;
+  align-items: top;
+}
+
+.logos {
+  display: flex;
+  margin-bottom: 100px;
+  gap: 100px;
+}
+
+.logos img {
+  height: 40px;
+}
+
+.clipboard p {
+  width: 700px;
+  margin-bottom: 50px;
+}
+
+
+footer {
+  margin-top: 100px;
+  background-color: rgba(237, 237, 237, 0.98);
+  
+  padding-top: 30px;
+  padding-bottom: 5px;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: top;
+  gap: 120px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.logo-footer {
+  height: 40px;
+  align-items: left;
+
+}
+
+.more-info {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin-right: 275px;
+  align-items: top;
+}
+
+.more-info-a {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: hsl(210, 10%, 33%);
+  margin-bottom: 15px;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding-bottom: 20px; 
+}
+
+.social-media svg {
+  cursor: pointer;
+}
+
+.social-media svg:hover path{
+  fill: hsl(171, 66%, 44%);
+}
+
+@media (min-width: 360px) and (max-width: 980px) {
+  body {
+    width: 100%;  
+    padding: 0;
+    margin: auto;
+    font-size: 15px;
+    background-size: auto;
+  }
+
+  .main-container,
+  .header,
+  .track-snippets,
+  .track-snippets,
+  .snippets,
+  .sub-workflow,
+  .logos,
+  .footer-info,
+  .more-info,
+  .more-info-a  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .header h1 {
+    padding: 0 30px 0 30px;    
+  }
+
+  .header p {
+    width: 290px;
+  }
+  
+  button {
+    padding: 15px 80px 15px 80px;
+  }
+
+  .btn-iOS {
+    margin-bottom: 20px;
+  }
+  
+  .track-head h2 {
+    width: 270px;
+  }
+
+
+  .track-snippets {
+    width: 270px;
+  }
+
+  .track-head p {
+    width: 280px;
+  }
+
+  .track-snippets img  {
+    width: 105%;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 50px;
+  }
+
+  .snippets {
+    margin: 0;
+  }
+
+  .snippets p {
+    padding: 0;
+    width: 280px;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  .access-clipboard {
+    width: 285px;
+  }
+
+  .workflow {
+    width: 280px;
+    
+  }
+
+  .sub-workflow {
+    width: 280px;
+  }
+
+  .sub-workflow div {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  .sub-workflow p {
+    width: 310px;
+  }
+
+  .logos {
+    margin: 0;
+    margin-bottom: 100px;
+  }
+
+  .logos img {
+    height: 60%;
+    width: 80%;
+    gap: 0;
+    margin-bottom: 10px;
+  }
+
+  .clipboard {
+    width: 280px;
+  }
+
+  .clipboard h2 {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .clipboard p {
+    width: 288px;
+  }
+
+  .footer-info,
+  .more-info,
+  .more-info-a {
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+  }
+
+  .footer-info img {
+    margin-bottom: 30px;
+  }
+}
